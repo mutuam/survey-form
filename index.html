@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+ <html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey form</title>
+        <style>
+            body{
+                text-indent: 60px;
+                outline:1 px solid red;
+                text-align:center;
+                border-style:solid;
+                border-width:50px;
+                border-color: aqua;
+                border-bottom:50px solid black;
+                border-radius:50px;
+                border-collapse: separate;
+            }
+            h1{
+                text-shadow:yellow 0px 0px 6px,green 4px 4px 10px ;
+                background-color: aqua;
+                margin-top:-1cm;
+                font-family:Tahoma;
+                font-size: xx-large;
+            }
+            #dada{
+                margin-left:13cm;
+                margin-top:-1.3cm;
+            }
+            #memo{
+                margin-left:4.5cm;
+                margin-top:-0.5cm;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Survey form</h1>
+        <p>Let us know how we can improve freecodecamp</p>
+        <p>.Name <input type="text" value="Enter your Name"></p>
+        <p>.Email<input type="text" value="Enter your email"></p>
+        <p>.Age<input type="text" value="Enter your age"></p>
+        <p>which option best describes your current role?<input type="reset" value="student"></p>
+        <p>How likely is that you would recommend freecodecamp to a friend?
+        <div>
+        <p><input type="radio">definitely</p>
+        <p><input type="radio">maybe</p>
+        <p><input type="radio">Not sure</p>
+        </div>
+        <p>what do you like most in fcc?<input type="text" value="select an option"></p>
+        <p>Things that should be improved in the future<p id="memo">(check all that apply)</p>
+        <p><input type="checkbox">Front-end projects</p>
+        <p><input type="checkbox">Back-end projects</p>
+        <p><input type="checkbox">python</p>
+    </body>
+ </html>
